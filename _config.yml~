@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+#  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -72,6 +72,12 @@ deploy:
   type: git
   repo: git@github.com:InnerAc/innerac.github.io.git
   branch: master
+
+backup:
+    type: git
+    theme: next,landscape,yilia
+    repository:
+       github: git@github.com:InnerAc/blog.io.backup.git,master
 
 # theme next
 avatar: https://avatars1.githubusercontent.com/u/8242597?v=3&s=460

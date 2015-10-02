@@ -75,7 +75,7 @@ deploy:
 
 backup:
     type: git
-    theme: nexi,landscape,yilia
+    theme: next,landscape,yilia
     repository:
        github: git@github.com:InnerAc/blog.io.backup.git,master
 
