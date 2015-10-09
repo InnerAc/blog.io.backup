@@ -3,8 +3,6 @@ menu:
   主页: /
   所有文章: /archives
   编程与算法: /categories/编程与算法
-  算法进阶: /categories/算法进阶
-  数据学习: /categories/数据学习
   日常维护: /categories/日常维护
   点点滴滴: /categories/点点滴滴
   # 随笔: /tags/随笔
@@ -46,7 +44,8 @@ avatar: /ava.png
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: true
+#duoshuo: true
+duoshuo: innerac
 #是否开启云标签
 tagcloud: true
 
@@ -59,6 +58,8 @@ friends:
   Sloriac的博客: http://sunzequn.com/
   祁林的博客: http://www.qilinlirui.com/
   马鹏举的博客: http://mapengju.com
+  杨松涛的博客: http://zcatao.github.io
+  InnerAc源地址: http://eternalac.com
 
 #是否开启“关于我”。
 #不开启——

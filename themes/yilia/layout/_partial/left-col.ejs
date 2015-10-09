@@ -89,8 +89,13 @@
 				<%if(theme.friends && theme.friends.length != 0){%>
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
+					<% var index_i = 1 %>
 					<% for (var i in theme.friends){ %>
 			          <a target="_blank" class="main-nav-link switch-friends-link" href="<%- url_for(theme.friends[i]) %>"><%= i %></a>
+			          <% if (index_i % 2 == 0 && index_i > 0){ %>
+			          	<br>
+			          <%}%>
+			          <% index_i++ %>
 			        <% } %>
 			        </div>
 				</section>
