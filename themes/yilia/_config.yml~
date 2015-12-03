@@ -54,12 +54,13 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  JetMuffin的博客: http://www.jetmuffin.com
+  JetMuffin的博客: http://jetmuffin.github.io
   Sloriac的博客: http://sunzequn.com/
   祁林的博客: http://www.qilinlirui.com/
   马鹏举的博客: http://mapengju.com
   杨松涛的博客: http://zcatao.github.io
   达哥的博客: http://blkstone.github.io/
+  雪林哥的博客: http://legend4917.github.io
 
 #是否开启“关于我”。
 #不开启——
